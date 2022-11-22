@@ -22,6 +22,21 @@ class Constants {
     );
   }
 
+  static TextStyle getPokeInfoTextStyle() {
+    return TextStyle(
+      color: Colors.black,
+      fontSize: _calculateFontSize(16),
+    );
+  }
+
+  static TextStyle getPokeInfoLabelTextStyle() {
+    return TextStyle(
+      color: Colors.black,
+      fontWeight: FontWeight.bold,
+      fontSize: _calculateFontSize(20),
+    );
+  }
+
   static TextStyle getTypeChipTextStyle() {
     return TextStyle(
       color: Colors.white,
